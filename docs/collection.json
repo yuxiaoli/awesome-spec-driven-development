@@ -1,0 +1,253 @@
+{
+  "defaultLocale": "en",
+  "title": {
+    "en": "Awesome Spec-Driven Development",
+    "zh-CN": "规范驱动开发精选",
+    "zh-HK": "規格驅動開發精選"
+  },
+  "description": {
+    "en": "A curated collection of tools, agent workflows, and learning resources that use explicit requirements and specifications to guide software design, implementation, and validation.",
+    "zh-CN": "精选规范驱动开发工具、智能体工作流与学习资源，以明确的需求和规范指导软件设计、实现及验证。",
+    "zh-HK": "精選規格驅動開發工具、智能體工作流程及學習資源，以明確的需求與規格指導軟件設計、實作及驗證。"
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "SDD Toolkits",
+        "zh-CN": "规范驱动开发工具包",
+        "zh-HK": "規格驅動開發工具套件"
+      },
+      "description": {
+        "en": "Tools that make specifications and requirements the basis for planning, implementation, and verification in spec-driven development.",
+        "zh-CN": "将规范和需求作为规划、实现与验证依据的工具，直接支持规范驱动开发。",
+        "zh-HK": "以規格與需求作為規劃、實作及驗證依據的工具，直接支援規格驅動開發。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Spec Kit",
+            "zh-CN": "Spec Kit",
+            "zh-HK": "Spec Kit"
+          },
+          "url": "https://github.com/github/spec-kit",
+          "description": {
+            "en": "Toolkit that turns requirements into specifications, technical plans, and tasks, then guides agent implementation and verification against those artifacts.",
+            "zh-CN": "将需求转化为规范、技术方案和任务，并据此指导智能体实现与验证的工具包。",
+            "zh-HK": "將需求轉化為規格、技術方案及任務，並據此指導智能體實作與驗證的工具套件。"
+          }
+        },
+        {
+          "name": {
+            "en": "OpenSpec",
+            "zh-CN": "OpenSpec",
+            "zh-HK": "OpenSpec"
+          },
+          "url": "https://github.com/Fission-AI/OpenSpec",
+          "description": {
+            "en": "Specification workflow for AI coding assistants that organizes changes into proposals, requirements, designs, and tasks, then merges completed specification changes into persistent project specs.",
+            "zh-CN": "面向 AI 编码助手的规范工作流，将变更组织为提案、需求、设计和任务，并将完成后的规范变更合并到持续维护的项目规范中。",
+            "zh-HK": "面向 AI 編碼助手的規格工作流程，將變更組織為提案、需求、設計及任務，並將完成後的規格變更合併至持續維護的項目規格。"
+          }
+        },
+        {
+          "name": {
+            "en": "GSD Core",
+            "zh-CN": "GSD Core",
+            "zh-HK": "GSD Core"
+          },
+          "url": "https://github.com/open-gsd/gsd-core",
+          "description": {
+            "en": "Spec-driven agent workflow that records requirements and phase decisions, creates executable plans, and checks requirement coverage before delivery.",
+            "zh-CN": "规范驱动的智能体工作流，记录需求与阶段决策，生成可执行计划，并在交付前检查需求覆盖情况。",
+            "zh-HK": "規格驅動的智能體工作流程，記錄需求與階段決策，產生可執行計劃，並在交付前檢查需求覆蓋情況。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Agent Workflows and Skills",
+        "zh-CN": "智能体工作流与技能",
+        "zh-HK": "智能體工作流程與技能"
+      },
+      "description": {
+        "en": "Development methods and reusable agent skills that turn product requirements into persistent specifications, implementation plans, and acceptance checks.",
+        "zh-CN": "将产品需求转化为持续维护的规范、实施计划与验收检查的开发方法及可复用智能体技能。",
+        "zh-HK": "將產品需求轉化為持續維護的規格、實施計劃及驗收檢查的開發方法與可重用智能體技能。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "BMAD Method",
+            "zh-CN": "BMAD Method",
+            "zh-HK": "BMAD Method"
+          },
+          "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+          "description": {
+            "en": "Agile development method that turns product intent into persistent specifications and traceable stories, guiding implementation and verification against documented capabilities and constraints.",
+            "zh-CN": "将产品意图转化为持续维护的规范与可追溯用户故事，并依据明确的功能和约束指导实现与验证的敏捷开发方法。",
+            "zh-HK": "將產品意圖轉化為持續維護的規格與可追溯用戶故事，並依據明確的功能及約束指導實作與驗證的敏捷開發方法。"
+          }
+        },
+        {
+          "name": {
+            "en": "ECC",
+            "zh-CN": "ECC",
+            "zh-HK": "ECC"
+          },
+          "url": "https://github.com/affaan-m/ECC",
+          "description": {
+            "en": "Agent engineering toolkit with PRD authoring, milestone-based implementation plans, and test-first execution and review.",
+            "zh-CN": "智能体工程工具包，提供产品需求文档编写、按里程碑组织的实施计划，以及测试先行的执行与审查流程。",
+            "zh-HK": "智能體工程工具套件，提供產品需求文件撰寫、按里程碑組織的實施計劃，以及測試先行的執行與審查流程。"
+          }
+        },
+        {
+          "name": {
+            "en": "Superpowers",
+            "zh-CN": "Superpowers",
+            "zh-HK": "Superpowers"
+          },
+          "url": "https://github.com/obra/superpowers",
+          "description": {
+            "en": "Coding-agent skills that develop approved design specifications, derive implementation plans, and review work for specification compliance and code quality.",
+            "zh-CN": "编码智能体技能集，用于形成经确认的设计规范、制定实施计划，并审查实现是否符合规范及代码质量要求。",
+            "zh-HK": "編碼智能體技能集，用於形成經確認的設計規格、制定實施計劃，並審查實作是否符合規格及程式碼質素要求。"
+          }
+        },
+        {
+          "name": {
+            "en": "gstack",
+            "zh-CN": "gstack",
+            "zh-HK": "gstack"
+          },
+          "url": "https://github.com/garrytan/gstack",
+          "description": {
+            "en": "Agent workflow suite that turns clarified requirements into detailed specifications and connects them to architecture review, implementation, testing, and delivery.",
+            "zh-CN": "将澄清后的需求转化为详细规范，并衔接架构审查、实现、测试与交付的智能体工作流套件。",
+            "zh-HK": "將釐清後的需求轉化為詳細規格，並銜接架構審查、實作、測試及交付的智能體工作流程套件。"
+          }
+        },
+        {
+          "name": {
+            "en": "mattpocock/skills",
+            "zh-CN": "mattpocock/skills",
+            "zh-HK": "mattpocock/skills"
+          },
+          "url": "https://github.com/mattpocock/skills",
+          "description": {
+            "en": "Composable engineering skills for drafting specifications, breaking them into dependent tickets, implementing with TDD, and reviewing code against the originating spec.",
+            "zh-CN": "可组合的工程技能，用于起草规范、拆分具有依赖关系的任务、通过测试驱动开发实现，并依据原始规范审查代码。",
+            "zh-HK": "可組合的工程技能，用於起草規格、拆分具有依賴關係的任務、透過測試驅動開發實作，並依據原始規格審查程式碼。"
+          }
+        },
+        {
+          "name": {
+            "en": "addyosmani/agent-skills",
+            "zh-CN": "addyosmani/agent-skills",
+            "zh-HK": "addyosmani/agent-skills"
+          },
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": {
+            "en": "Engineering skills with a spec-first workflow covering requirements, implementation plans, tasks with acceptance criteria, incremental development, and verification.",
+            "zh-CN": "工程技能集，包含规范优先的工作流，涵盖需求、实施计划、带验收标准的任务、增量开发与验证。",
+            "zh-HK": "工程技能集，包含規格優先的工作流程，涵蓋需求、實施計劃、附驗收準則的任務、增量開發及驗證。"
+          }
+        },
+        {
+          "name": {
+            "en": "Compound Engineering Plugin",
+            "zh-CN": "Compound Engineering Plugin",
+            "zh-HK": "Compound Engineering Plugin"
+          },
+          "url": "https://github.com/EveryInc/compound-engineering-plugin",
+          "description": {
+            "en": "Agent workflow plugin that turns requirements into implementation plans with traceable acceptance examples, then executes and reviews the work against those plans.",
+            "zh-CN": "智能体工作流插件，将需求转化为包含可追溯验收示例的实施计划，并依据计划执行与审查工作。",
+            "zh-HK": "智能體工作流程外掛，將需求轉化為包含可追溯驗收示例的實施計劃，並依據計劃執行及審查工作。"
+          }
+        },
+        {
+          "name": {
+            "en": "Claude Code Harness",
+            "zh-CN": "Claude Code Harness",
+            "zh-HK": "Claude Code Harness"
+          },
+          "url": "https://github.com/Chachamaru127/claude-code-harness",
+          "description": {
+            "en": "Development harness that maintains a product specification and task plan, executes approved scope, and checks completion criteria and implementation drift.",
+            "zh-CN": "开发执行框架，维护产品规范与任务计划，执行已确认的范围，并检查完成标准及实现偏离规范的情况。",
+            "zh-HK": "開發執行框架，維護產品規格與任務計劃，執行已確認的範圍，並檢查完成準則及實作偏離規格的情況。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "API Specification Tools",
+        "zh-CN": "API 规范工具",
+        "zh-HK": "API 規格工具"
+      },
+      "description": {
+        "en": "Tools for specification-first API design, using explicit contracts to guide request generation, testing, and validation.",
+        "zh-CN": "以 API 规范为起点开展设计，并据此生成请求、进行测试与验证的工具。",
+        "zh-HK": "以 API 規格為起點進行設計，並據此產生請求、進行測試及驗證的工具。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Insomnia",
+            "zh-CN": "Insomnia",
+            "zh-HK": "Insomnia"
+          },
+          "url": "https://github.com/Kong/insomnia",
+          "description": {
+            "en": "OpenAPI design environment for editing and linting specifications, generating endpoint requests, and validating API workflows with mocks, tests, and the Inso CLI.",
+            "zh-CN": "OpenAPI 设计环境，支持编辑与检查规范、生成端点请求，并通过模拟服务、测试和 Inso CLI 验证 API 工作流。",
+            "zh-HK": "OpenAPI 設計環境，支援編輯與檢查規格、產生端點請求，並透過模擬服務、測試及 Inso CLI 驗證 API 工作流程。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Learning Resources",
+        "zh-CN": "学习资源",
+        "zh-HK": "學習資源"
+      },
+      "description": {
+        "en": "Tutorials and courses with substantial instruction on writing specifications and using them to guide implementation and acceptance.",
+        "zh-CN": "包含系统化规范驱动开发内容的教程与课程，讲解如何编写规范并用于指导实现和验收。",
+        "zh-HK": "包含系統化規格驅動開發內容的教程與課程，講解如何編寫規格並用於指導實作及驗收。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "AI Engineering from Scratch",
+            "zh-CN": "AI Engineering from Scratch",
+            "zh-HK": "AI Engineering from Scratch"
+          },
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "description": {
+            "en": "AI engineering curriculum with a dedicated learning path on requirements analysis, executable specifications, bounded agent tasks, and evidence-based validation.",
+            "zh-CN": "AI 工程课程，设有专项学习路径，讲解需求分析、可执行规范、智能体任务边界及基于证据的验证。",
+            "zh-HK": "AI 工程課程，設有專項學習路徑，講解需求分析、可執行規格、智能體任務界限及以證據為本的驗證。"
+          }
+        },
+        {
+          "name": {
+            "en": "Easy-Vibe",
+            "zh-CN": "Easy-Vibe",
+            "zh-HK": "Easy-Vibe"
+          },
+          "url": "https://github.com/datawhalechina/easy-vibe",
+          "description": {
+            "en": "AI coding curriculum with a detailed spec-driven development tutorial covering layered specifications, implementation planning, acceptance criteria, testing, and specification versioning.",
+            "zh-CN": "AI 编程课程，包含详细的规范驱动开发教程，涵盖分层规范、实施规划、验收标准、测试及规范版本管理。",
+            "zh-HK": "AI 編程課程，包含詳細的規格驅動開發教程，涵蓋分層規格、實施規劃、驗收準則、測試及規格版本管理。"
+          }
+        }
+      ]
+    }
+  ]
+}
