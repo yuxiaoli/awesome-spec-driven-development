@@ -27,6 +27,8 @@ Development methods and reusable agent skills that turn product requirements int
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) - Agent workflow plugin that turns requirements into implementation plans with traceable acceptance examples, then executes and reviews the work against those plans.
 - [Claude Code Harness](https://github.com/Chachamaru127/claude-code-harness) - Development harness that maintains a product specification and task plan, executes approved scope, and checks completion criteria and implementation drift.
 
+- [100x Engineer Skill](https://github.com/DeadInternetStudios/100x-engineer-skill) - Agent workflow and CLI that turns requirements into formal properties, checks them during implementation, and requires recorded verification and review evidence before delivery.
+
 ## API Specification Tools
 
 Tools for specification-first API design, using explicit contracts to guide request generation, testing, and validation.
